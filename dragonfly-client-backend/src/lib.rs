@@ -28,6 +28,7 @@ use tokio::io::{AsyncRead, AsyncReadExt};
 use tracing::{error, info, warn};
 use url::Url;
 
+pub mod ffi;
 pub mod http;
 
 // NAME is the name of the package.
